@@ -17,7 +17,7 @@ public class lab2 {
         double d = scanner.nextDouble();
         System.out.println("Your y: " + d);
         scanner.close();
-        double e;
+        double e = 0;
         if (x * y > 3) {
             e = Math.max(x, 3 * Math.log(Math.abs(x * y * c * d)));
         } else if (x * y >= 0 && x * y <= 3) {
