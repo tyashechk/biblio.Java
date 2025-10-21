@@ -15,7 +15,7 @@ public class lab2 {
         System.out.println("Your c: " + c);
         System.out.print("Let d: ");
         double d = scanner.nextDouble();
-        System.out.println("Your y: " + d);
+        System.out.println("Your d: " + d);
         scanner.close();
         double e = 0;
         if (x * y > 3) {
