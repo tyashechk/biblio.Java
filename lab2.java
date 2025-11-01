@@ -3,19 +3,20 @@ import java.util.Scanner;
 public class lab2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in, "UTF-8");
+        System.out.println("--------------------------");
 
         System.out.print("Let x: ");
         double x = scanner.nextDouble();
-        System.out.println("Your x: " + x);
+        
         System.out.print("Let y: ");
         double y = scanner.nextDouble();
-        System.out.println("Your y: " + y);
+        
         System.out.print("Let c: ");
         double c = scanner.nextDouble();
-        System.out.println("Your c: " + c);
+        
         System.out.print("Let d: ");
         double d = scanner.nextDouble();
-        System.out.println("Your d: " + d);
+        
         scanner.close();
         double e = 0;
         if (x * y > 3) {
@@ -25,6 +26,7 @@ public class lab2 {
         } else if (x * y < 0) {
             e = 2 * c * d - x;
         }
-        System.out.println("Finish!!:" + e );
+        System.out.println("Finish!!  e = " + e );
+        System.out.println("--------------------------");
     }
 }
